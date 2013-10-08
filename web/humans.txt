@@ -1,0 +1,12 @@
+﻿/* TEAM */
+	Chef: Xavier Fornés
+	Contact: xavier [at] prunatic.com
+	Twitter: @xfornesa
+	From: Mataró (Barcelona), Catalonia, Spain
+
+/* SITE */
+	Last update:2013/09/30
+	Language: Castellano
+	Doctype: HTML
+	IDE: PHP Storm
+	Library: Twitter Bootstrap, Glyphicons

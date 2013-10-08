@@ -1,0 +1,8 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}{{ parent() }}{% endblock %}
+{% block description %}{{ parent() }}{% endblock %}
+
+{% block header %}{% include 'components/header.html.twig' with {'selectedMenu': 'portfolio'} only %}{% endblock %}
+
+{% block content %}{% endblock content %}

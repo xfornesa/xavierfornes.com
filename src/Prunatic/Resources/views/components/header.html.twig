@@ -1,0 +1,11 @@
+{% if selectedMenu is not defined %}
+    {% set selectedMenu = 'about' %}
+{% endif %}
+<ul class="nav nav-pills pull-right">
+    <li class="{{ selectedMenu == 'about' ? 'active' }}"><a href="{{ path('homepage') }}#about">Acerca de mí</a></li>
+    <li class="{{ selectedMenu == 'skills' ? 'active' }}"><a href="{{ path('homepage') }}#skills">Conocimientos</a></li>
+    <li class="{{ selectedMenu == 'projects' ? 'active' }}"><a href="{{ path('homepage') }}#projects">Proyectos</a></li>
+    <li class="{{ selectedMenu == 'history' ? 'active' }}"><a href="{{ path('homepage') }}#history">Historia</a></li>
+    {#<li class="{{ selectedMenu == 'bakery' ? 'active' }}"><a href="{{ path('bakery') }}">The Bakery</a></li>#}
+</ul>
+<h1 class="text-muted"><a href="{{ path('homepage') }}">Xavier Fornés</a></h1>
