@@ -7,6 +7,7 @@ class Script
     public static function install()
     {
         echo "Setting permissions\n";
+        mkdir('cache', 01777);
         chmod('cache', 01777); // sticky bit enabled
         self::copyTwitterAssets();
 

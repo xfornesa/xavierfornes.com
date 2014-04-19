@@ -9,6 +9,7 @@
         }
     ],
     "require": {
+        "php": ">=5.5",
         "silex/silex": "1.1.x-dev",
         "twig/twig": "dev-master",
         "twitter/bootstrap": "v3.0.0",

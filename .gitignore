@@ -1,3 +1,9 @@
+# IDE
+.idea
+
+# composer
+composer.lock
+
 # Bootstrap
 app/bootstrap*
 
@@ -11,3 +17,7 @@ web/bundles/*
 # Configuration files
 app/config/parameters.ini
 app/config/parameters.yml
+
+# local env
+.vagrant/
+html/
