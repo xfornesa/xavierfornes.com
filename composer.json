@@ -10,10 +10,10 @@
     ],
     "require": {
         "php": ">=5.5",
-        "silex/silex": "1.1.x-dev",
-        "twig/twig": "dev-master",
+        "silex/silex": "~1.2",
+        "twig/twig": ">=1.8,<2.0-dev",
         "twitter/bootstrap": "v3.0.0",
-        "symfony/twig-bridge": "2.3.x-dev"
+        "symfony/twig-bridge": "~2.3"
     },
     "scripts": {
         "post-install-cmd": "Prunatic\\Composer\\Script::install",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Prunatic": "src/"
+            "": "src/"
         }
     }
 }
