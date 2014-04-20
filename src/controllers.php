@@ -12,7 +12,7 @@ $app->get('/the-bakery.html', function() use ($app) {
         return $app['twig']->render('Default/portfolio.html.twig');
     })->bind('bakery');
 
-$app->error(function (\Exception $e, $code) use ($app) {
+$app->error(function (\Exception $e) use ($app) {
         if ($app['debug']) {
             return;
         }
