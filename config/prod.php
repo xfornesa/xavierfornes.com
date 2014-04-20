@@ -9,7 +9,7 @@ $app['locale'] = 'es';
 $app['debug'] = false;
 
 // Cache
-// $app['cache.path'] = __DIR__ . '/../cache';
+$app['cache.path'] = __DIR__ . '/../cache';
 
 // Twig cache
-// $app['twig.options.cache'] = $app['cache.path'] . '/twig';
+$app['twig.options.cache'] = $app['cache.path'] . '/twig';
