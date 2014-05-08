@@ -77,10 +77,13 @@ h2.hr {
 
 #social .list-inline > li {
     margin-right: 16px;
+    margin-bottom: 16px;
 }
+/*
 #social .list-inline > li:last-of-type {
     margin-right: 0;
 }
+*/
 #social .list-inline > li img {
     height: 24px;
 }
