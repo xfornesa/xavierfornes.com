@@ -104,7 +104,7 @@
             <p>Tras poner en producción el desarrollo del último año en Localnomad, busco un proyecto en el que BDD y TDD fueran más que palabras de tres letras. Busco un salto cualitativo como desarrollador.</p>
             <p><strong>myTaste</strong> es el lugar. Con un legacy code en Code Igniter y la necesidad de evolucionar la plataforma hacia algo más robusto y bien hecho, requieren un rediseño del código por completo.</p>
             <p>En menos de un mes revoluciono el gallinero: incorporo <a href="http://docs.behat.org/" title="Behat" target="_blank">Behavior-Driven Development</a> a los sprints, seguir <a href="http://martinfowler.com/bliki/TestDrivenDevelopment.html" title="TDD" target="_blank">Test-Driven Development</a> para el desarrollo de nuevo código y uso de Unit Tests para la refactorización del legacy code. Tras algunas pruebas de concepto defino una arquitectura en capas a la que evolucionar. El objectivo primario es desacoplarse de un framework que ha llegado a su fin.</p>
-            <p>A los dos meses, incorporo los conceptos de <a href="http://dddcommunity.org/" title="DDD Community" target="_blank">Domain Driven Design</a> para diseñar la capa de negocio, aplicación e infrastructura.</p>
+            <p>A los dos meses, incorporo los conceptos de <a href="http://dddcommunity.org/" title="DDD Community" target="_blank">Domain Driven Design</a> para diseñar la capa de negocio (core domain), aplicación e infraestructura.</p>
             <p>Varias aplicaciones reusan el mismo código y es necesario desacoplarlas, tomamos rumbo hacia una <a href="http://martinfowler.com/articles/microservices.html" title="Microservices" target="_blank">arquitectura basada en microservicios</a> con Silex como detalle de implementación. Monto un entorno con Vagrant para facilitar el desarrollo de estos microservicios.</p>
             {% set labels = ['myTaste', 'DDD', 'TDD', 'BDD', 'Behat', 'PHP', 'MySQL', 'Doctrine', 'Redis', 'Symfony2', 'Silex', 'Design Patterns', 'SOLID Principles', 'Sphinx', 'Microservices', 'Vagrant'] %}
             {%  include 'components/labels.html.twig' with {'labels': labels} only %}
@@ -113,9 +113,27 @@
     <div class="panel panel-default">
         <div class="panel-heading"><span class="glyphicon glyphicon-calendar"></span> 2014. First time as speaker</div>
         <div class="panel-body">
-            <p>deSymfony day el 31 de Mayo del 2014, presento una ponencia acerca de <a href="http://martinfowler.com/articles/microservices.html" title="Microservices" target="_blank">arquitectura basada en microservicios</a> y me la aceptan.</p>
+            <p><a href="http://lanyrd.com/2014/desymfonyday/sczcqy/">deSymfony day el 31 de Mayo del 2014</a>, presento una ponencia acerca de <a href="http://martinfowler.com/articles/microservices.html" title="Microservices" target="_blank">arquitectura basada en microservicios</a> y me la aceptan.</p>
             <p>Estreno mi <a href="http://lanyrd.com/profile/xfornesa/" title="Xavier Fornés's conference talks and presentations | Lanyrd" target="_blank">perfil de speaker</a></p>
             {% set labels = ['speaker', 'Microservices', 'Symfony2', 'Silex', 'Microservices', 'Vagrant'] %}
+            {%  include 'components/labels.html.twig' with {'labels': labels} only %}
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><span class="glyphicon glyphicon-calendar"></span> 2014-2015. Consolidation of [B|D|T]DD</div>
+        <div class="panel-body">
+            <p>Nos metemos de lleno en el desarrollo de la aplicación backend para las aplicaciones nativas de myTaste para Android e iOS.</p>
+            <p>Aprovechamos la oportunidad para centrarnos en hacer las cosas bien.</p>
+            <p>Usamos BDD para extraer el core domain y sacar el Ubiquitous language, usamos DDD para que el lenguaje se refleje en el código. Solucionamos los detalles de infrasestructura aplicando arquitectura hexagonal.</p>
+            <p>Formación interna: "BDD by example"</p>
+            <p>
+                <ul>
+                    <li><a href="http://es.slideshare.net/xfornesa/bdd-by-example" target="_blank">Slides</a></li>
+                    <li><a href="https://github.com/xfornesa/BDDByExample-php" target="_blank">Kata en PHP</a></li>
+                    <li><a href="https://github.com/xfornesa/BDDByExample-python" target="_blank">Kata en Python</a></li>
+                </ul>
+            </p>
+            {% set labels = ['myTaste', 'DDD', 'TDD', 'BDD', 'Behat', 'Symfony2', 'Silex', 'Design Patterns', 'SOLID Principles', 'Hexagonal Architecture', 'Microservices', 'Vagrant'] %}
             {%  include 'components/labels.html.twig' with {'labels': labels} only %}
         </div>
     </div>
