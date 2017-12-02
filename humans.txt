@@ -1,0 +1,12 @@
+﻿/* TEAM */
+	Chef: Xavier Fornés
+	Contact: xfornesa [at] gmail.com
+	Twitter: @xfornesa
+	From: Mataró (Barcelona), Catalonia, Spain
+
+/* SITE */
+	Last update:2017/12/01
+	Language: Castellano
+	Doctype: HTML
+	IDE: IntelliJ
+	Library: Twitter Bootstrap, Glyphicons
